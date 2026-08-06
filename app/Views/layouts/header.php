@@ -3,7 +3,7 @@
 <!--begin::Head-->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title><?= $this->renderSection('title') ?: 'AdminLTE 4 | Starter Page' ?></title>
+    <title><?= $this->renderSection('title') ?: 'AdminLTE 4' ?> | <?= site_name() ?></title>
 
     <!--begin::Theme Init (prevents flash of incorrect theme on load, #6043)-->
     <script>

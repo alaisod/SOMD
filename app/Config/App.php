@@ -14,8 +14,8 @@ class App extends BaseConfig
      * The human-friendly name of the site. This can be used in page titles,
      * email templates, and other UI text.
      */
-    public string $siteName = 'SOMD';
-    
+    public string $siteName = '';
+
     /**
      * --------------------------------------------------------------------------
      * Base Site URL
