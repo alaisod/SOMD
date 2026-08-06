@@ -20,12 +20,13 @@
 # APP
 #--------------------------------------------------------------------
 
+# app.siteName = 'SOMD'
 # app.baseURL = ''
 # If you have trouble with `.`, you could also use `_`.
 # app_baseURL = ''
+# app.indexPage = ''
 # app.forceGlobalSecureRequests = false
 # app.CSPEnabled = false
-# app.indexPage = ''
 
 #--------------------------------------------------------------------
 # DATABASE

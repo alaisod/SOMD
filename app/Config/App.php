@@ -19,6 +19,16 @@ class App extends BaseConfig
     public string $baseURL = 'http://localhost:8080/';
 
     /**
+     * --------------------------------------------------------------------------
+     * Site Name
+     * --------------------------------------------------------------------------
+     *
+     * The human-friendly name of the site. This can be used in page titles,
+     * email templates, and other UI text.
+     */
+    public string $siteName = 'SOMD';
+
+    /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
      * If you want to accept multiple Hostnames, set this.
      *
